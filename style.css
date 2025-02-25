@@ -49,4 +49,70 @@ table {
 	border-spacing: 0;
 }
 
+body{
+    background-color: #F3F6F7;
+    font-family: "Inter";
+}
 
+.cabecalho{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo{
+    margin-right: 40px;
+}
+
+.link-menu{
+    font-size: 16px;
+    line-height: 23px;
+    color: #6C757D;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.ativo{
+    font-weight: bold;
+    color: #F8F9FA;
+}
+
+
+.menu{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa{
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.campo-texto{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 15px;
+}
+
+.botao{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    text-align: center;
+    margin-left: 16px;
+}
